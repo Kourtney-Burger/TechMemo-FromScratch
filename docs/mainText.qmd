@@ -1,8 +1,33 @@
 ---
-title: "mainText"
-format: pdf
-editor: visual
+title: Tech Memo Template
+subtitle: test tech memo built from Eli Holmes' examples 
+author: 
+  - name: Kourtney Burger
+    affiliations:
+      - name: Southwest Fisheries Science Center
+        address: 8901 La Jolla Shores Drive La Jolla, CA 92037
+      - name: Marine Mammal and Turtle Division
+        department: Southwest Acoustic Ecology Lab
+    email: kourtney.burger@noaa.gov
 bibliography: references.bib
+format: pdf
+# format:
+#   titlepage-pdf:
+#     documentclass: scrbook
+#     classoption: ["oneside", "open=any"]
+#     number-sections: true
+#     toc: true
+#     lof: true
+#     lot: true
+#     titlepage: "bg-image"
+#     titlepage-bg-image: "img/corner-bg.png"
+#     titlepage-logo: "img/logo.png"
+#     titlepage-header: "The Publisher"
+#     titlepage-footer: |
+#       NOAA Fisheries OpenSci\
+#       Tools for Open Science\
+#       [https://github.com/nmfs-opensci](https://github.com/nmfs-opensci)\
+#     keep-tex: true
 ---
 
 ## Quarto
