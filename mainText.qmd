@@ -1,0 +1,54 @@
+---
+title: Tech Memo Template
+#subtitle: test tech memo built from Eli Holmes' examples 
+author: 
+  - name: Kourtney Burger
+#    affiliations:
+#      - name: Southwest Fisheries Science Center
+#        address: 8901 La Jolla Shores Drive La Jolla, CA 92037
+#      - name: Marine Mammal and Turtle Division
+#        department: Southwest Acoustic Ecology Lab
+#    email: kourtney.burger@noaa.gov
+bibliography: references.bib
+#format: pdf
+format: 
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    number-sections: true
+    toc: true
+    lof: true
+    lot: true
+    titlepage: "bg-image"
+    titlepage-bg-image: "img/department-of-commerce-logo-black-and-white.png"
+    titlepage-logo: "img/department-of-commerce-logo-black-and-white.png"
+#    titlepage-header: "The Publisher"
+    titlepage-footer: |
+      NOAA Fisheries OpenSci\
+      Tools for Open Science\
+      [https://github.com/nmfs-opensci](https://github.com/nmfs-opensci)\
+    keep-tex: true
+---
+
+## Quarto
+
+Test reference @nosal2011
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
